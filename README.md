@@ -28,7 +28,9 @@ Git, Gitlab 和 Gitflow
 
 1. 首先请安装并设置好 [Gitflow](https://github.com/nvie/gitflow).
 
-2. 开发新功能时，首先创建 feature 分支，分支命名规则为 yyyymmdd_username_featurename，如 20171009_yangjian_update_readme:
+2. eclipse安装egit [EGit Download](http://www.eclipse.org/egit/download/) [EGit Guide](https://wiki.eclipse.org/EGit/User_Guide).
+
+3. 开发新功能时，首先创建 feature 分支，分支命名规则为 yyyymmdd_username_featurename，如 20171009_yangjian_update_readme:
 
     ```sh
     git flow feature start 20171009_yangjian_update_readme
@@ -36,7 +38,7 @@ Git, Gitlab 和 Gitflow
 
     该命令会自动创建并切换到分支 20171009_yangjian_update_readme, 请在此分支上开发。
 
-3. 当功能开发完成后，确保本地单元测试通过，手工测试通过，代码在 [Gitee](https://gitee.com/zonton/rongtongteacher) 上经过其他人 review, 然后将代码合并到 develop 并 push 到服务器:
+4. 当功能开发完成后，确保本地单元测试通过，手工测试通过，代码在 [Gitee](https://gitee.com/zonton/rongtongteacher) 上经过其他人 review, 然后将代码合并到 develop 并 push 到服务器:
 
     ```sh
     # 此时在 feature/20171009_yangjian_update_readme 分支上，命令执行后会切换到 develop 分支上
